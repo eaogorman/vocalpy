@@ -623,7 +623,6 @@ def sat(
         {
             "amplitude": (["channel", "time"], amp_),
             "pitch": (["channel", "time"], pitch_),
-            "pitch_no_center": (["channel", "time"], pitch_(center=False)),
             "goodness_of_pitch": (["channel", "time"], goodness_),
             "mean_frequency": (["channel", "time"], mean_frequency_),
             "peak_frequency": (["channel", "time"], peak_frequency_),
